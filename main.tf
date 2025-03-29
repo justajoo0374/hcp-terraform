@@ -1,5 +1,6 @@
 provider "google" {
   project = "magnetic-flare-454316-h0"
+  region = "us-central1"
   # Configuration options
 }
 resource "google_compute_instance" "hcp" {
