@@ -1,3 +1,7 @@
+provider "google" {
+  project = "magnetic-flare-454316-h0"
+  # Configuration options
+}
 resource "google_compute_instance" "hcp" {
   name         = "hcp-vm"
   machine_type = "n2-standard-2"
